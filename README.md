@@ -1,37 +1,52 @@
 # Clonie's A+ Trainer
 
+![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+![CLI App](https://img.shields.io/badge/type-CLI%20application-orange)
+
 Gamified **CompTIA A+ study trainer** built with Node.js.
 
-Instead of traditional flashcards, this tool turns studying into a game with XP, levels, streaks, boss rounds, and persistent progress between sessions.
+Answer questions, build streaks, defeat boss rounds, earn XP, level up, and track your progress between sessions.
+
+---
+
+## Demo
+
+Example gameplay in the terminal:
+
+```
+🎮 Clonie's A+ Trainer
+
+Q 3/20 | ❤️ 3/5 | 💵 $200 | 🔥 Streak 4 | ⭐ Level 3
+XP 60/100 [████████░░░░░░░░]
+
+What port does HTTPS use?
+
+A: 80
+B: 443
+C: 21
+D: 22
+
+✔ Correct! +25 XP
+💵 Payday! Level-up reward +$100
+```
 
 ---
 
 ## Features
 
 - XP and leveling system
-- Streak bonuses for consecutive correct answers
+- Streak bonuses
 - Boss rounds every 10 questions
-- Lives system for challenge and engagement
-- Salary rewards for leveling up
+- Lives system
+- Salary rewards for leveling
 - Progress saved between sessions
-- Command-line interface built with Node.js
-
----
-
-## How It Works
-
-1. Start the trainer from the terminal.
-2. Answer multiple-choice CompTIA A+ questions.
-3. Earn XP for correct answers.
-4. Build streaks for bonus XP.
-5. Level up and earn salary rewards.
-6. Progress is automatically saved.
+- Node.js command-line interface
 
 ---
 
 ## Running the Trainer
-
-Make sure you have **Node.js installed**.
 
 Install dependencies:
 
@@ -67,24 +82,10 @@ aplus-trainer
 ## Future Improvements
 
 - Missed questions review mode
-- Question categories (hardware, networking, troubleshooting)
+- Question categories
 - Timed practice sessions
-- Desktop version using Electron
-- Web version for mobile studying
-
----
-
-## Purpose
-
-This project was created as a personal learning tool to make studying for the **CompTIA A+ certification** more engaging and interactive.
-
----
-
-## Built With
-
-- Node.js
-- Chalk
-- Inquirer Prompts
+- Desktop version with Electron
+- Web version
 
 ---
 
