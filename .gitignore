@@ -2,3 +2,5 @@ node_modules/
 scripts/progress.json
 data/core1-generated.json
 .env
+data/progress.json
+node_modules
