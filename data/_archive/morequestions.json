@@ -1,0 +1,45 @@
+ [
+ {
+    "id": 5,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which of the following describes a power state instead of a power mode? (Select TWO.)",
+    "choices": {
+      "A": "Hibernation",
+      "B": "Off",
+      "C": "Sleep",
+      "D": "On"
+    },
+    "answer": "B, D",
+    "explanation": "On (S0) and Off (S5/G3) are definitive power states. Sleep (S3) and Hibernation (S4) are also states, but 'On' and 'Off' are the most fundamental states of a machine being powered or unpowered."
+  },
+
+{
+    "id": 8,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which of the following scenarios will work in Windows in regard to multiple monitors? (Select TWO.)",
+    "choices": {
+      "A": "Windows supports multiple video cards with one or more monitors attached",
+      "B": "Windows does not support multiple monitors, only multiple desktops",
+      "C": "Windows can handle monitors of different resolution attached to the same system",
+      "D": "Windows supports up to two monitors on a single video card"
+    },
+    "answer": "A, C",
+    "explanation": "Modern Windows versions can easily handle multiple video cards and can extend the desktop across monitors with different native resolutions."
+  },
+  {
+    "id": 24,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "Which of the following options fall under I.T. best practices? (Select TWO.)",
+    "choices": {
+      "A": "Offering all possible choices to a customer",
+      "B": "Dress appropriately with clients and customers",
+      "C": "Always suggesting the least expensive option.",
+      "D": "Following up with a customer to verify satisfaction."
+    },
+    "answer": "B, D",
+    "explanation": "Professionalism in I.T. includes maintaining a professional appearance and ensuring customer satisfaction by following up after a service call."
+  }
+]

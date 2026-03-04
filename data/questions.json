@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "core": "1101",
+    "domain": "Networking",
+    "question": "Which protocol is used to automatically assign IP addresses?",
+    "choices": {
+      "A": "DNS",
+      "B": "DHCP",
+      "C": "HTTP",
+      "D": "FTP"
+    },
+    "answer": "B",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP configuration (IP address, subnet mask, gateway, DNS) to clients."
+  },
+  {
+    "id": 2,
+    "core": "1102",
+    "domain": "Security",
+    "question": "What does MFA stand for?",
+    "choices": {
+      "A": "Multiple File Access",
+      "B": "Multi-Factor Authentication",
+      "C": "Managed Firewall Access",
+      "D": "Main Frame Account"
+    },
+    "answer": "B",
+    "explanation": "MFA is Multi-Factor Authentication—using two or more verification methods (something you know, have, or are)."
+  },
+  {
+    "id": 3,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which connector is commonly used for modern internal storage drives?",
+    "choices": {
+      "A": "SATA",
+      "B": "VGA",
+      "C": "RJ-11",
+      "D": "PS/2"
+    },
+    "answer": "A",
+    "explanation": "SATA is commonly used for internal HDDs/SSDs. (NVMe uses M.2/PCIe, which is also modern.)"
+  },
+  {
+    "id": 4,
+    "core": "1102",
+    "domain": "Security",
+    "question": "Cletus receives a computer with a Trojan horse and comes to your shop for help to get the virus off the system. Which of the following should you do first?",
+    "choices": {
+      "A": "Establish how he acquired the virus",
+      "B": "Identify the malware",
+      "C": "Quarantine the system",
+      "D": "Rollback to the System Restore Point."
+    },
+    "answer": "C",
+    "explanation": "According to CompTIA's malware removal steps, the first action upon identifying a potential infection is to quarantine the system to prevent its spread."
+  },
+  {
+    "id": 6,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "Which of the following options would most likely cause a Windows BSoD?",
+    "choices": {
+      "A": "User error",
+      "B": "Network misconfiguration",
+      "C": "New Software installed",
+      "D": "New hardware installed"
+    },
+    "answer": "D",
+    "explanation": "A Blue Screen of Death (BSoD) is a critical system error, often caused by faulty hardware or incompatible drivers, which are commonly introduced when installing new hardware."
+  },
+  {
+    "id": 7,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "A technician would like to dispose of a hard drive. According to company policy, however, she must delete all contents on the disk before disposing it. Which of the following command line tools should she use to comply with policy?",
+    "choices": {
+      "A": "Chkdsk",
+      "B": "Sfc / scannow",
+      "C": "Del",
+      "D": "Format"
+    },
+    "answer": "D",
+    "explanation": "The 'format' command prepares a disk for use and erases all data on it. While not forensically secure, it's the standard command line tool for deleting all contents."
+  },
+  {
+    "id": 9,
+    "core": "1102",
+    "domain": "Security",
+    "question": "Erin noticed that several company internal passwords get misused in some fashion and this leads her to suspect that someone inside the company steals user passwords. What technique could that person within the company use to steal information, and what prevention methods could Erin implement?",
+    "choices": {
+      "A": "Man in the middle / ACL",
+      "B": "Shoulder surfing / privacy filter",
+      "C": "Phishing / spam blocker",
+      "D": "Tailgating / mantrap"
+    },
+    "answer": "B",
+    "explanation": "Shoulder surfing is the act of looking over someone's shoulder to steal information like passwords. A privacy filter on the screen physically prevents this."
+  },
+  {
+    "id": 10,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "For the BEST recoverability, where should you save backups?",
+    "choices": {
+      "A": "Same drive as the data being backed up",
+      "B": "Windows recovery Environment",
+      "C": "Email attachment",
+      "D": "External storage device"
+    },
+    "answer": "D",
+    "explanation": "Saving backups to an external device isolates them from failures (hardware, malware) that could affect the source computer, ensuring data can be recovered."
+  },
+  {
+    "id": 11,
+    "core": "1102",
+    "domain": "Security",
+    "question": "Short of shredding, which of the following methods best ensures that someone cannot recover data on a hard drive?",
+    "choices": {
+      "A": "Use an overwrite program",
+      "B": "Use dispart to repartition the drive",
+      "C": "Use a degaussing tool",
+      "D": "Use a drive encryption tool"
+    },
+    "answer": "C",
+    "explanation": "A degaussing tool uses a powerful magnetic field to completely destroy all magnetic data on a hard drive, making it unrecoverable."
+  },
+  {
+    "id": 12,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "In Windows, how do you close an unresponsive application?",
+    "choices": {
+      "A": "Open Task Manager, right-click the application, and then click End Task button.",
+      "B": "Click and hold the application’s Taskbar icon, then select Force Quit from the popup dialog box.",
+      "C": "Open Task Manager, select the App History tab, select the application, click Switch to button.",
+      "D": "Open Device Manager, right-click the application, select Disable from the popup menu."
+    },
+    "answer": "A",
+    "explanation": "Task Manager is the standard Windows utility for managing running processes and forcefully closing unresponsive applications via the 'End Task' option."
+  },
+  {
+    "id": 13,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "Which of the following BEST describes Safe Mode?",
+    "choices": {
+      "A": "Safe Mode allows antivirus applications to check the system",
+      "B": "Safe Mode uses minimal drivers and default settings for troubleshooting",
+      "C": "Safe Mode limits changes to the system",
+      "D": "Safe Mode takes the system off the network to isolate it."
+    },
+    "answer": "B",
+    "explanation": "Safe Mode is a diagnostic startup mode that loads Windows with only the essential drivers and services, helping to isolate and troubleshoot system problems."
+  },
+  {
+    "id": 14,
+    "core": "1102",
+    "domain": "Security",
+    "question": "When Darlene enters her username and password into the computer each morning, she can access all her programs without having to repeat this process. What type of security applies here?",
+    "choices": {
+      "A": "TACACS+",
+      "B": "TKIP",
+      "C": "SSO",
+      "D": "MFA"
+    },
+    "answer": "C",
+    "explanation": "SSO (Single Sign-On) is an authentication scheme that allows a user to log in with a single ID and password to gain access to a connected system or multiple software systems."
+  },
+  {
+    "id": 15,
+    "core": "1101",
+    "domain": "Operating Systems",
+    "question": "What name does macOS give the bar at the bottom of the desktop which selects and launches programs?",
+    "choices": {
+      "A": "Terminal",
+      "B": "Finder",
+      "C": "Dock",
+      "D": "Taskbar"
+    },
+    "answer": "C",
+    "explanation": "The program launcher at the bottom of the macOS desktop is called the Dock. The Windows equivalent is the Taskbar."
+  },
+  {
+    "id": 16,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "Jane the tech answers a service call about a computer that seems sluggish and slow. Which of the following scenarios would LEAST likely cause the problem?",
+    "choices": {
+      "A": "The applications need updates",
+      "B": "The CPU got too cold.",
+      "C": "The system needs more RAM",
+      "D": "The hard drive’s files got too fragmented."
+    },
+    "answer": "B",
+    "explanation": "CPUs are designed to operate within a specific temperature range and will perform optimally when cool. Overheating causes slowdowns, not being too cold."
+  },
+  {
+    "id": 17,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "While onsite and working on a client's PC, you notice a red folder with the words 'Classified, do not look' on the cover. How would you BEST handle this situation?",
+    "choices": {
+      "A": "Ask the client to remove the folder and then work on the PC.",
+      "B": "Ask the client for permission to read the files as it might relate to work.",
+      "C": "Ignore the folder and get to work.",
+      "D": "Look at the files."
+    },
+    "answer": "C",
+    "explanation": "As a professional, a technician should respect client privacy and confidentiality. Unless the folder is physically obstructing the work, it should be ignored."
+  },
+  {
+    "id": 18,
+    "core": "1101",
+    "domain": "Operating Systems",
+    "question": "Which command displays the current directory?",
+    "choices": {
+      "A": "pwd",
+      "B": "dd",
+      "C": "id",
+      "D": "cd"
+    },
+    "answer": "A",
+    "explanation": "The 'pwd' (print working directory) command is used in Linux/macOS to display the current directory path. In Windows, 'cd' with no arguments does the same."
+  },
+  {
+    "id": 19,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "Which of the following ways BEST gathers customer information about a problem?",
+    "choices": {
+      "A": "Accuse",
+      "B": "Interrupt",
+      "C": "Ignore",
+      "D": "Communicate"
+    },
+    "answer": "D",
+    "explanation": "Effective and respectful communication, including active listening and asking open-ended questions, is the best way to gather information from a customer."
+  },
+  {
+    "id": 20,
+    "core": "1102",
+    "domain": "Security",
+    "question": "Which step immediately follows step three (disable System Restore) in CompTIA's seven-step malware management process?",
+    "choices": {
+      "A": "Quarantine infected system",
+      "B": "Identify the problem",
+      "C": "Schedule scans and run updates",
+      "D": "Remediate infected systems"
+    },
+    "answer": "D",
+    "explanation": "The 7 steps are: 1. Identify. 2. Quarantine. 3. Disable System Restore. 4. Remediate (update anti-malware, scan). 5. Schedule scans. 6. Enable System Restore. 7. Educate."
+  },
+  {
+    "id": 21,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "Which of the following statements correctly describes group permissions?",
+    "choices": {
+      "A": "All group members must 'Accept' the new user before the user can get group permissions.",
+      "B": "Permissions are granted to one group user apply to all other group members.",
+      "C": "Group permissions granted to a user gives that same user equal permissions in other groups.",
+      "D": "Permissions granted to a group apply to all members of the group."
+    },
+    "answer": "D",
+    "explanation": "The purpose of a user group is to efficiently manage permissions. Any permission applied to the group is inherited by all user accounts within that group."
+  },
+  {
+    "id": 22,
+    "core": "1102",
+    "domain": "Security",
+    "question": "Which of the following common security threats occur when a user calls and requests his co-worker's password?",
+    "choices": {
+      "A": "Social engineering",
+      "B": "Shoulder surfing",
+      "C": "Phishing",
+      "D": "Man-in-the-middle."
+    },
+    "answer": "A",
+    "explanation": "Social engineering is the art of manipulating people into divulging confidential information, such as pretending to be someone in authority or need."
+  },
+  {
+    "id": 23,
+    "core": "1102",
+    "domain": "Operating Systems",
+    "question": "What gives power to an administrator account?",
+    "choices": {
+      "A": "Joining the Power Users group.",
+      "B": "Changing from standard user to administrator",
+      "C": "Entering the sudo command",
+      "D": "Joining the Administrator group"
+    },
+    "answer": "D",
+    "explanation": "In Windows, an account gains administrative privileges by being a member of the local 'Administrators' group."
+  },
+  {
+    "id": 25,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A technician unsuccessfully attempted to use the diskpart command to delete a partition. Why or how could this occur?",
+    "choices": {
+      "A": "The partition didn’t exist.",
+      "B": "It contained the boot sector.",
+      "C": "He didn’t run CMD as an administrator",
+      "D": "He didn’t run diskpart as an administrator"
+    },
+    "answer": "C",
+    "explanation": "Disk partitioning is a high-level administrative task. The Command Prompt (CMD) must be run with elevated (Administrator) privileges to use diskpart correctly."
+  },
+  {
+    "id": 26,
+    "core": "1101",
+    "domain": "Operating Systems",
+    "question": "Which of the following methods will bring up a context menu for a resource, file, or folder in Windows?",
+    "choices": {
+      "A": "[CTRL] + [SHIFT] + [ESC]",
+      "B": "Double Click",
+      "C": "[CTRL] + [ALT] + [DELETE]",
+      "D": "Right-click"
+    },
+    "answer": "D",
+    "explanation": "Right-clicking an item in Windows is the standard method for opening its context-sensitive menu, which contains options like Open, Copy, Paste, and Properties."
+  },
+  {
+    "id": 27,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "WUXGA monitors use which resolution?",
+    "choices": {
+      "A": "1440 x 900",
+      "B": "1920 x 1200",
+      "C": "1600 x 1200",
+      "D": "1366 x 768"
+    },
+    "answer": "B",
+    "explanation": "WUXGA stands for Widescreen Ultra Extended Graphics Array and has a standard resolution of 1920x1200, which is a 16:10 aspect ratio."
+  },
+  {
+    "id": 28,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "An irate user who does not identify himself calls in, yelling that his workstation does not work and that you need to fix it NOW! What action should you first take?",
+    "choices": {
+      "A": "Tell the user you will send a technician over right away.",
+      "B": "Escalate the user’s complaint to level 2 tech support.",
+      "C": "Calmly ask for his name and more details of the problem.",
+      "D": "Scold him for his tone of voice and tell him to call back when he has calmed down."
+    },
+    "answer": "C",
+    "explanation": "The first step in dealing with an irate customer is to de-escalate the situation and begin gathering information in a calm, professional manner."
+  },
+  {
+    "id": 29,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A customer reports that she cannot browse the Web after a technician cleaned up a rogue antivirus program. Which of the following should a technician check to resolve the situation?",
+    "choices": {
+      "A": "Firewall settings",
+      "B": "Proxy settings",
+      "C": "Browsing history",
+      "D": "Antivirus settings"
+    },
+    "answer": "B",
+    "explanation": "Malware, especially rogue AV, often redirects web traffic by changing the browser's proxy settings. Even after the malware is removed, these settings can remain and must be reset."
+  },
+  {
+    "id": 30,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "While working on a computer in an office cubical, the user's child appears and starts asking questions and poking at various components. How should you best deal with this disruption?",
+    "choices": {
+      "A": "Ignore the child and try to complete the work.",
+      "B": "Ask the child’s parent or guardian to take the child away.",
+      "C": "Ask the child to stop.",
+      "D": "Escalate the problem to your supervisor."
+    },
+    "answer": "B",
+    "explanation": "It is not the technician's role to discipline a child. The most professional way to handle the situation is to politely ask the parent or guardian to intervene."
+  },
+  {
+    "id": 31,
+    "core": "1102",
+    "domain": "Security",
+    "question": "An office purchases a new color laser network printer only for high-end graphic printing. The technician needs to limit users despite its central location within an office environment. Which of the following methods provides the BEST way to achieve this goal?",
+    "choices": {
+      "A": "UAC",
+      "B": "ACL",
+      "C": "RDP",
+      "D": "VPN"
+    },
+    "answer": "B",
+    "explanation": "An ACL (Access Control List) is used to define permissions for a resource. By configuring the printer's ACL, the technician can specify exactly which user accounts are allowed to print."
+  },
+  {
+    "id": 32,
+    "core": "1101",
+    "domain": "Operating Systems",
+    "question": "You want to tell a customer about the features of Windows 7 so they'll finally upgrade from Windows Vista. Which of the following options could you tell them?",
+    "choices": {
+      "A": "Windows 7 comes with the Aero interface.",
+      "B": "Windows 7 features Cortana, which you can activate with your voice to do searches and run commands.",
+      "C": "Windows 7 features a Task Bar that enables you to pin items to it like a dock.",
+      "D": "Windows 7 has Sidebar, which enables you to install Gadgets."
+    },
+    "answer": "C",
+    "explanation": "The ability to 'pin' applications to the Taskbar was a major new feature in Windows 7. Aero and Sidebar were introduced in Vista, and Cortana was introduced in Windows 10."
+  },
+  {
+    "id": 33,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A technician tries installing a legacy application on a Windows 7 computer, but he keeps getting an error that states that it cannot install the application as the OS does not support it. Which of the following should the technician do first?",
+    "choices": {
+      "A": "Install the application with Compatibility Mode.",
+      "B": "Install it on a virtual machine.",
+      "C": "Install the application in Safe Mode.",
+      "D": "Install the latest Windows service packs and updates."
+    },
+    "answer": "A",
+    "explanation": "Compatibility Mode is a feature designed specifically for this purpose, allowing older applications to run by simulating an earlier version of Windows."
+  },
+  {
+    "id": 34,
+    "core": "1102",
+    "domain": "Professionalism",
+    "question": "Which of the following body languages should a technician avoid when dealing with customers?",
+    "choices": {
+      "A": "Crossed arms",
+      "B": "Gesticulating arms",
+      "C": "Open arms",
+      "D": "Relaxed arms"
+    },
+    "answer": "A",
+    "explanation": "Crossed arms is often interpreted as defensive, closed-off, or unreceptive body language, which can negatively impact customer communication."
+  },
+  {
+    "id": 35,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which storage device BEST creates portable bootable media from an ISO image?",
+    "choices": {
+      "A": "JBOD",
+      "B": "USB flash drive",
+      "C": "SSD",
+      "D": "Cloud"
+    },
+    "answer": "B",
+    "explanation": "USB flash drives are the standard and most common media used for creating bootable installers from ISO files due to their portability, reusability, and speed."
+  },
+  {
+    "id": 36,
+    "core": "1102",
+    "domain": "Security",
+    "question": "A user receives an email containing a coworker’s birth date and social security number. She did not request this email, nor did it have any encryption when sent. What policy does this email violate?",
+    "choices": {
+      "A": "DRM",
+      "B": "PHI",
+      "C": "PII",
+      "D": "EULA"
+    },
+    "answer": "C",
+    "explanation": "PII (Personally Identifiable Information) refers to any data that could be used to identify a specific individual, such as a name, social security number, or birth date."
+  },
+  {
+    "id": 37,
+    "core": "1101",
+    "domain": "Networking",
+    "question": "What triggers Wake-on-LAN?",
+    "choices": {
+      "A": "Magic message",
+      "B": "Magic Jack",
+      "C": "Magic segment",
+      "D": "Magic packet"
+    },
+    "answer": "D",
+    "explanation": "Wake-on-LAN (WoL) uses a specially crafted network frame called a 'magic packet' containing the target computer's MAC address to wake it from a low-power state."
+  },
+  {
+    "id": 101,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "What is the FIRST step in the CompTIA A+ troubleshooting methodology?",
+    "choices": {
+      "A": "Establish a theory of probable cause",
+      "B": "Identify the problem",
+      "C": "Test the theory",
+      "D": "Document findings"
+    },
+    "answer": "B",
+    "explanation": "Step 1 is always Identify the problem. You must gather information before forming theories."
+  },
+  {
+    "id": 102,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A user reports their system stopped working after an update. What should you do FIRST?",
+    "choices": {
+      "A": "Roll back the update",
+      "B": "Reinstall the operating system",
+      "C": "Identify the problem and gather information",
+      "D": "Replace the hard drive"
+    },
+    "answer": "C",
+    "explanation": "Even if an update is suspected, you must follow the process and identify the problem first."
+  },
+  {
+    "id": 103,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "Which step involves identifying possible causes and researching symptoms?",
+    "choices": {
+      "A": "Test the theory",
+      "B": "Establish a theory of probable cause",
+      "C": "Verify full system functionality",
+      "D": "Document findings"
+    },
+    "answer": "B",
+    "explanation": "Step 2 is establishing a theory of probable cause by questioning the obvious and researching symptoms."
+  },
+  {
+    "id": 104,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "If your initial theory is incorrect, what should you do?",
+    "choices": {
+      "A": "Escalate immediately",
+      "B": "Replace hardware",
+      "C": "Return to Step 2 and establish a new theory",
+      "D": "Document the issue"
+    },
+    "answer": "C",
+    "explanation": "If testing disproves your theory, you return to Step 2 and form a new theory."
+  },
+  {
+    "id": 105,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "After implementing a fix, what comes NEXT?",
+    "choices": {
+      "A": "Document findings",
+      "B": "Verify full system functionality",
+      "C": "Test the theory",
+      "D": "Escalate the issue"
+    },
+    "answer": "B",
+    "explanation": "Step 5 is to verify full functionality and implement preventive measures before documenting."
+  },
+  {
+    "id": 106,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A PC shuts down randomly due to overheating. What is the NEXT troubleshooting step?",
+    "choices": {
+      "A": "Replace the motherboard",
+      "B": "Test the theory by checking cooling components",
+      "C": "Document findings",
+      "D": "Reinstall the OS"
+    },
+    "answer": "B",
+    "explanation": "Once a theory (overheating) is formed, Step 3 is to test that theory."
+  },
+  {
+    "id": 107,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "After replacing a PSU and the system powers on normally, what comes NEXT?",
+    "choices": {
+      "A": "Verify full system functionality",
+      "B": "Document immediately",
+      "C": "Establish a new theory",
+      "D": "Replace additional components"
+    },
+    "answer": "A",
+    "explanation": "After implementing a solution, Step 5 is verifying full functionality."
+  },
+  {
+    "id": 108,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "A technician replaces hardware without testing first. Which step was skipped?",
+    "choices": {
+      "A": "Identify the problem",
+      "B": "Test the theory",
+      "C": "Document findings",
+      "D": "Verify functionality"
+    },
+    "answer": "B",
+    "explanation": "Skipping testing means Step 3 (Test the theory) was not followed."
+  },
+  {
+    "id": 109,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "When should documentation occur in the troubleshooting process?",
+    "choices": {
+      "A": "Before testing",
+      "B": "After verifying full functionality",
+      "C": "Immediately after identifying the problem",
+      "D": "Before forming a theory"
+    },
+    "answer": "B",
+    "explanation": "Documentation is Step 6 and occurs after verifying functionality."
+  },
+  {
+    "id": 110,
+    "core": "1102",
+    "domain": "Troubleshooting",
+    "question": "Which step follows implementing a solution?",
+    "choices": {
+      "A": "Establish a theory",
+      "B": "Test the theory",
+      "C": "Verify full system functionality",
+      "D": "Identify the problem"
+    },
+    "answer": "C",
+    "explanation": "After Step 4 (implement), Step 5 is verifying functionality and preventive measures."
+  },
+  {
+    "id": 201,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "What does a Power Supply Unit (PSU) convert?",
+    "choices": {
+      "A": "DC power to AC power",
+      "B": "AC power to DC power",
+      "C": "Analog signals to digital",
+      "D": "Heat to electricity"
+    },
+    "answer": "B",
+    "explanation": "A PSU converts AC wall power into DC power used by internal computer components."
+  },
+  {
+    "id": 202,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Which voltage rail is most critical for CPU and GPU operation?",
+    "choices": {
+      "A": "+3.3V",
+      "B": "+5V",
+      "C": "+12V",
+      "D": "-12V"
+    },
+    "answer": "C",
+    "explanation": "The +12V rail powers the CPU, GPU, and motors. It is the most critical rail."
+  },
+  {
+    "id": 203,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Which PSU connector powers the CPU?",
+    "choices": {
+      "A": "24-pin motherboard connector",
+      "B": "SATA power",
+      "C": "4+4 / 8-pin CPU connector",
+      "D": "Molex connector"
+    },
+    "answer": "C",
+    "explanation": "The 4+4 or 8-pin connector specifically supplies power to the CPU."
+  },
+  {
+    "id": 204,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "A PC has fans spinning but no POST and no beeps. What should be checked FIRST?",
+    "choices": {
+      "A": "Replace the motherboard",
+      "B": "Check the CPU power connector",
+      "C": "Replace RAM",
+      "D": "Reinstall Windows"
+    },
+    "answer": "B",
+    "explanation": "Fans spinning does not guarantee the CPU power connector is attached. Always verify CPU power first."
+  },
+  {
+    "id": 205,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Random shutdowns under load often indicate what issue?",
+    "choices": {
+      "A": "Insufficient wattage or weak +12V rail",
+      "B": "Faulty monitor",
+      "C": "Bad keyboard",
+      "D": "Incorrect BIOS time"
+    },
+    "answer": "A",
+    "explanation": "Random shutdowns during load often indicate insufficient wattage or a failing +12V rail."
+  },
+  {
+    "id": 206,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Which device provides battery backup and power conditioning?",
+    "choices": {
+      "A": "Surge protector",
+      "B": "Line conditioner",
+      "C": "UPS",
+      "D": "Power strip"
+    },
+    "answer": "C",
+    "explanation": "A UPS (Uninterruptible Power Supply) provides battery backup and conditioning."
+  },
+  {
+    "id": 207,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "What symptom indicates a possible PSU failure?",
+    "choices": {
+      "A": "Slow internet",
+      "B": "Burning smell",
+      "C": "Mouse lag",
+      "D": "Printer not responding"
+    },
+    "answer": "B",
+    "explanation": "A burning smell often indicates PSU failure."
+  },
+  {
+    "id": 208,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Should a PSU ever be opened for repair?",
+    "choices": {
+      "A": "Yes, to inspect capacitors",
+      "B": "Only if unplugged",
+      "C": "No, capacitors can retain lethal charge",
+      "D": "Only with insulated gloves"
+    },
+    "answer": "C",
+    "explanation": "Never open a PSU. Capacitors can retain a lethal charge even when unplugged."
+  },
+  {
+    "id": 209,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Which connector is used to power modern GPUs?",
+    "choices": {
+      "A": "6+2 pin",
+      "B": "SATA power",
+      "C": "Molex",
+      "D": "RJ-45"
+    },
+    "answer": "A",
+    "explanation": "Modern GPUs commonly use 6+2 pin PCIe power connectors."
+  },
+  {
+    "id": 210,
+    "core": "1101",
+    "domain": "Power & PSU",
+    "question": "Office PCs typically require what wattage range?",
+    "choices": {
+      "A": "150–250W",
+      "B": "300–500W",
+      "C": "650–1000W",
+      "D": "1200W+"
+    },
+    "answer": "B",
+    "explanation": "Office PCs typically require 300–500 watts."
+  },
+  {
+    "id": 301,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which cable supports 10 Gbps at 100 meters?",
+    "choices": {
+      "A": "Cat 5e",
+      "B": "Cat 6",
+      "C": "Cat 6a",
+      "D": "Cat 8"
+    },
+    "answer": "C",
+    "explanation": "Cat 6a supports 10 Gbps up to 100 meters. Cat 6 supports 10 Gbps only up to 55 meters."
+  },
+  {
+    "id": 302,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which Ethernet cable category supports 1 Gbps up to 100 meters?",
+    "choices": {
+      "A": "Cat 5e",
+      "B": "Cat 6a",
+      "C": "Cat 7",
+      "D": "Cat 8"
+    },
+    "answer": "A",
+    "explanation": "Cat 5e supports 1 Gbps up to 100 meters."
+  },
+  {
+    "id": 303,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which connector is used with twisted-pair Ethernet cables?",
+    "choices": {
+      "A": "RJ-11",
+      "B": "F-type",
+      "C": "RJ-45",
+      "D": "LC"
+    },
+    "answer": "C",
+    "explanation": "RJ-45 is the 8-pin connector used with twisted-pair Ethernet cables."
+  },
+  {
+    "id": 304,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which twisted-pair cable type is shielded and used in high-interference environments?",
+    "choices": {
+      "A": "UTP",
+      "B": "STP",
+      "C": "Coaxial",
+      "D": "Fiber"
+    },
+    "answer": "B",
+    "explanation": "STP (Shielded Twisted Pair) is used in environments with high EMI."
+  },
+  {
+    "id": 305,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which fiber type supports long-distance communication?",
+    "choices": {
+      "A": "Multimode",
+      "B": "Single-mode",
+      "C": "UTP",
+      "D": "Coaxial"
+    },
+    "answer": "B",
+    "explanation": "Single-mode fiber supports long-distance communication and has a higher cost."
+  },
+  {
+    "id": 306,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which fiber connector is the most common modern connector?",
+    "choices": {
+      "A": "SC",
+      "B": "ST",
+      "C": "LC",
+      "D": "RJ-45"
+    },
+    "answer": "C",
+    "explanation": "LC is the most common modern fiber connector."
+  },
+  {
+    "id": 307,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which connector type is used with coaxial cable for cable internet and TV?",
+    "choices": {
+      "A": "RJ-45",
+      "B": "LC",
+      "C": "F-type",
+      "D": "ST"
+    },
+    "answer": "C",
+    "explanation": "Coaxial cable uses an F-type connector."
+  },
+  {
+    "id": 308,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "What type of cable connects similar devices?",
+    "choices": {
+      "A": "Straight-through",
+      "B": "Crossover",
+      "C": "Fiber",
+      "D": "Coaxial"
+    },
+    "answer": "B",
+    "explanation": "Crossover cables connect similar devices (e.g., switch to switch)."
+  },
+  {
+    "id": 309,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "What type of cable connects different devices?",
+    "choices": {
+      "A": "Straight-through",
+      "B": "Crossover",
+      "C": "Fiber",
+      "D": "UTP"
+    },
+    "answer": "A",
+    "explanation": "Straight-through cables connect different devices (e.g., PC to switch)."
+  },
+  {
+    "id": 310,
+    "core": "1101",
+    "domain": "Networking Cables",
+    "question": "Which cable type is immune to electromagnetic interference (EMI)?",
+    "choices": {
+      "A": "UTP",
+      "B": "STP",
+      "C": "Fiber-optic",
+      "D": "Coaxial"
+    },
+    "answer": "C",
+    "explanation": "Fiber-optic cable uses light instead of electricity, making it immune to EMI."
+  },
+  {
+    "id": 401,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which video cable does NOT support audio?",
+    "choices": {
+      "A": "HDMI",
+      "B": "DisplayPort",
+      "C": "DVI",
+      "D": "Thunderbolt"
+    },
+    "answer": "C",
+    "explanation": "DVI supports video only and has no native audio support."
+  },
+  {
+    "id": 402,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which connector is analog?",
+    "choices": {
+      "A": "HDMI",
+      "B": "DisplayPort",
+      "C": "DVI-D",
+      "D": "VGA"
+    },
+    "answer": "D",
+    "explanation": "VGA is an analog video connector and image quality degrades over long distances."
+  },
+  {
+    "id": 403,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which cable is most common for TVs?",
+    "choices": {
+      "A": "HDMI",
+      "B": "VGA",
+      "C": "DVI",
+      "D": "DisplayPort"
+    },
+    "answer": "A",
+    "explanation": "HDMI is the most common consumer video cable used with TVs and supports audio and HDCP."
+  },
+  {
+    "id": 404,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which technology supports video, data, and power over a single cable?",
+    "choices": {
+      "A": "VGA",
+      "B": "Thunderbolt",
+      "C": "DVI",
+      "D": "HDMI 1.0"
+    },
+    "answer": "B",
+    "explanation": "Thunderbolt supports video, data, and power and uses the USB-C connector in versions 3 and 4."
+  },
+  {
+    "id": 405,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which connector type is reversible?",
+    "choices": {
+      "A": "HDMI",
+      "B": "DisplayPort",
+      "C": "USB-C",
+      "D": "VGA"
+    },
+    "answer": "C",
+    "explanation": "USB-C is reversible and can support video (Alt Mode), audio, and power if supported."
+  },
+  {
+    "id": 406,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "If audio is required, which connectors should be eliminated?",
+    "choices": {
+      "A": "HDMI and DisplayPort",
+      "B": "VGA and DVI",
+      "C": "Thunderbolt and USB-C",
+      "D": "DisplayPort and HDMI"
+    },
+    "answer": "B",
+    "explanation": "VGA and DVI do not natively support audio. Eliminate them if audio is required."
+  },
+  {
+    "id": 407,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which connector is common in professional PC environments and has a locking mechanism?",
+    "choices": {
+      "A": "HDMI",
+      "B": "DisplayPort",
+      "C": "VGA",
+      "D": "DVI-A"
+    },
+    "answer": "B",
+    "explanation": "DisplayPort is common in professional environments and features a locking connector."
+  },
+  {
+    "id": 408,
+    "core": "1101",
+    "domain": "Video & Display",
+    "question": "Which cable supports audio and HDCP?",
+    "choices": {
+      "A": "HDMI",
+      "B": "VGA",
+      "C": "DVI",
+      "D": "Composite"
+    },
+    "answer": "A",
+    "explanation": "HDMI supports both audio and HDCP (High-bandwidth Digital Content Protection)."
+  },
+  {
+    "id": 501,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which component determines CPU compatibility?",
+    "choices": {
+      "A": "Power supply",
+      "B": "Motherboard",
+      "C": "RAM",
+      "D": "GPU"
+    },
+    "answer": "B",
+    "explanation": "The motherboard determines CPU compatibility based on socket type and chipset support."
+  },
+  {
+    "id": 502,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which RAM type is used in laptops?",
+    "choices": {
+      "A": "DIMM",
+      "B": "SODIMM",
+      "C": "ECC",
+      "D": "DDR5"
+    },
+    "answer": "B",
+    "explanation": "SODIMM (Small Outline DIMM) is used in laptops. DIMM is used in desktops."
+  },
+  {
+    "id": 503,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which connector provides power directly to the CPU?",
+    "choices": {
+      "A": "24-pin ATX",
+      "B": "SATA power",
+      "C": "4/8-pin CPU connector",
+      "D": "Molex"
+    },
+    "answer": "C",
+    "explanation": "The 4-pin or 8-pin CPU power connector supplies power directly to the CPU."
+  },
+  {
+    "id": 504,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which storage type is the fastest?",
+    "choices": {
+      "A": "HDD",
+      "B": "SATA SSD",
+      "C": "NVMe SSD",
+      "D": "External USB drive"
+    },
+    "answer": "C",
+    "explanation": "NVMe SSDs use PCIe lanes and are faster than SATA SSDs and HDDs."
+  },
+  {
+    "id": 505,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "What is the most critical voltage rail in a power supply?",
+    "choices": {
+      "A": "3.3V",
+      "B": "5V",
+      "C": "9V",
+      "D": "12V"
+    },
+    "answer": "D",
+    "explanation": "The 12V rail is most critical because it powers the CPU, GPU, and motors."
+  },
+  {
+    "id": 506,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which expansion slot does a GPU typically use?",
+    "choices": {
+      "A": "PCIe x1",
+      "B": "PCIe x4",
+      "C": "PCIe x16",
+      "D": "M.2"
+    },
+    "answer": "C",
+    "explanation": "GPUs use PCIe x16 slots for maximum bandwidth."
+  },
+  {
+    "id": 507,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which cooling method uses fans to move air across components?",
+    "choices": {
+      "A": "Passive cooling",
+      "B": "Active cooling",
+      "C": "Liquid cooling",
+      "D": "Thermal paste"
+    },
+    "answer": "B",
+    "explanation": "Active cooling uses fans to move air and reduce heat."
+  },
+  {
+    "id": 508,
+    "core": "1101",
+    "domain": "Hardware",
+    "question": "Which storage type is considered slowest?",
+    "choices": {
+      "A": "HDD",
+      "B": "SATA SSD",
+      "C": "NVMe SSD",
+      "D": "PCIe SSD"
+    },
+    "answer": "A",
+    "explanation": "HDDs are mechanical and slower compared to SSD and NVMe drives."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "aplus-trainer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/quiz.js",
+  "scripts": {
+    "start": "node src/quiz.js",
+    "generate": "node scripts/generate-questions.js",
+    "validate": "node scripts/validate-questions.js",
+    "merge": "node scripts/merge-questions.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@inquirer/prompts": "^8.3.0",
+    "chalk": "^5.6.2",
+    "inquirer": "^13.3.0"
+  }
+}
