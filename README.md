@@ -1,5 +1,7 @@
 # Clonie's A+ Trainer
 
+![Demo](assets/aplus-demo.gif)
+
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-active-success)
